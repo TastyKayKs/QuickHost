@@ -4,8 +4,9 @@ Add-Type -AssemblyName System.Drawing
 
 $header = @"
 HTTP/1.1 200 OK
-Content-Type: text/plain
+Content-Type: text/plain; charset=UTF-8
 Content-Length: XXX
+Connection: close
 
 
 "@
